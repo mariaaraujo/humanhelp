@@ -1,0 +1,3 @@
+Arrumados:
+
+botao de cadastro só aparece se o checkbox for clicado com os termos!
