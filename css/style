@@ -1,0 +1,1113 @@
+/*   Documento Css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;       
+    font: 15px/1.5 Arial, Helvetica, sans-serif;       /*   < - - - - - Corpo do projeto - - - - - >  */
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width:85%;
+    margin: auto;                                      /*   < - - - - - Configuração do container - - - - - >  */
+    overflow: hidden;
+}
+#card {
+    width: 220px;
+    height: 535px;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+#card h4.texth4 {
+    font-size: 17px;
+    text-align: center;
+}
+#card h5.texth5 {
+    font-size: 25px;
+    text-align: center;
+    color: #2e5091;
+    transition: 1.5s;
+    border-bottom: 5px solid #dddcdc;
+}
+#card h5.texth5:hover {
+    font-size: 20px;
+    text-align: center;
+    color: #1c323d;
+    transition: 1.0s;
+}
+#card h2.card-text {
+    font-size: 15px;
+    padding: 20px;
+    color: rgb(52, 105, 158);
+    border-bottom: 3px solid #abadac;
+    background: #f0f0f0;
+    border: 1px solid #d8dadb;
+    border-radius: 10px;
+}
+#card h2.card-text:hover {
+    font-size: 15px;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 3px solid #abadac;
+    background: #17a2b8;
+    border: 2px solid #dddcdc;
+    border-radius: 10px;
+}
+#card p.text-p{
+    font-size: 14px;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 3px solid #abadac;
+    transition: 0.9s;
+    border-radius: 20px;
+    background: #d2d3d3;
+}
+#card p.text-p:hover {
+    font-size: 14px;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 3px solid #abadac;
+    background: #28a745;
+    transition: 0.9s;
+    border-radius: 20px;
+}
+#minhaDiv {
+    background: #fff;
+    width: 340px;
+    border: 10px solid rgb(235, 233, 233);
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+#minhaDiv h2.text-form {
+    font-size: 27px;
+    padding: 20px;
+    border-bottom: 3px solid #738ba5;
+}
+#minhaDiv2 {
+    background: #fff;
+    width: 340px;
+    border: 10px solid rgb(235, 233, 233);
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+#minhaDiv2 h2.text-form1 {
+    font-size: 27px;
+    padding: 20px;
+    border-bottom: 3px solid #738ba5;
+}
+#minhaDiv3 {
+    background: #fff;
+    width: 340px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: 2px solid #dcdddc;
+    transition: 1.9s;
+}
+#minhaDiv3 h2.text-form2 {
+    font-size: 30px;
+    padding: 20px;
+    color: #1c323d;
+    text-align: center;
+    border-bottom: 3px solid #738ba5;
+}
+.button_1{
+    height: 38px;
+    background: #34b370;
+    border: 0;
+    padding-left: 20px;                                /*   < - - - - - Estilização do botão - - - - - >  */
+    padding-right:  20px;
+    color: #ffffff;
+}
+.btn btn-primary {
+    bg-gradient:#315076;
+}
+.btn-inicio {
+    text-decoration: none;
+    height: 40px;
+    background: #34b370;
+    border: 0;
+    padding-left: 50px;                                 /*   < - - - - - Estilização do botão - - - - - >  */
+    padding-right:  50px;
+    padding: 10px 40px;
+    color: #ffffff;
+}
+.dark {
+    padding: 15px;
+    background:  #64b86c;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2#topico {
+    padding: 50px;
+    color: #2d4570;
+    text-align: center;
+    transition: 2.0s;
+}
+h2#topico-b {
+    padding: 50px;
+    color: #696969;
+    text-align: center;
+    transition: 2.0s;
+}
+h2#topico-b:hover {
+    padding: 50px;
+    color: #686767;
+    text-align: center;
+    transition: 2.0s;
+}
+h2#topico:hover {
+    color: #cdcecf;
+    transition: 0.8s;
+}
+h2#topico2 {
+    color: #4c5a6b;
+    text-align: center;
+}
+h2#topico3 {
+    padding: 50px;
+    color: #2d4570;
+    text-align: center;
+    transition: 2.0s;
+}
+span {
+    cursor: pointer;
+}
+header.header-inicio{
+    color: #fff;
+    padding-top: 10px;
+    min-height: 60px;
+    background: url('../img/fundo.png') no-repeat 0 ;
+    height: 550px;
+    transition: 1.2s;
+}
+header.header-trabalhocriado{
+    color: #fff;
+    padding-top: 10px;
+    min-height: 60px;
+    background: rgb(16, 120, 180);
+    transition: 1.2s;
+    height: 550px;
+}
+header.header-inicio-sobre{
+    color: #fff;
+    padding-top: 140px;
+    min-height: 20px;
+    background: url('../img/fundosobre.png') no-repeat 0 ;
+    transition: 1.2s;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+header.header-sobre{
+    background: #394d65;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 60px;
+    background: url('../img/fundomapa.png') no-repeat 0 ;
+    transition: 1.0s;
+}
+header.header-cadastro{
+    background: #394d65;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 60px;
+    background: url('../img/fundo.png') no-repeat 0 ;
+    transition: 1.0s;
+}
+header.header-loginong{
+    background: #394d65;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 60px;
+    background: url('../img/fundologinong.png') no-repeat 0 ;
+    transition: 1.0s;
+}
+header.header-cadastro-voluntario{
+    background: #1b2c41;
+    color: #fff;
+    padding-top: 10px;
+    height: 470px;
+    min-height: 60px;
+    background: url('../img/bannervoluntarios.png') no-repeat 0 ;
+    transition: 1.0s;
+}
+header.header-cadastro-ongs{
+    background: #394d65;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 60px;
+    background: url('../img/bannerong.png') no-repeat 0 ;
+    transition: 1.0s;
+}
+header.header-principal {
+    background: url('../img/fundoprincipal.png') no-repeat 0 ;
+    height: 330px;
+    padding: 10px 20px;
+    color: #fff;
+}
+header.header-suporte {
+    background: #394d65;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 60px;
+    background: url('../img/fundosuporte.png') no-repeat 0 ;
+    transition: 1.0s;
+}
+header.header-vol {
+    background: url('../img/principalvol.png') no-repeat 0 ;
+    height: 330px;
+    padding: 10px 20px;
+    color: #fff;
+}
+header.header-trabalho {
+    background: url('../img/fundotrab.png') no-repeat 0 ;
+    padding-top: 150px;
+    height: 430px;
+    padding: 120px 20px;
+    color: #fff;
+}
+header.header-trabalho1 {
+    background: url('../img/fundotrab1.png') no-repeat 0 ;
+    padding-top: 150px;
+    height: 430px;
+    padding: 120px 20px;
+    color: #fff;
+}
+header.header-doações {
+    background: url('../img/fundodoações.png') no-repeat 0 ;
+    height: 430px;
+    padding: 10px 20px;
+    color: #fff;
+}
+header.header-sobre a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 5px 20px 0 20px;
+}
+header #branding {
+    float: left;
+    padding: 20px;
+}
+header #branding h1 {
+    margin: 0;
+}
+header {
+    height: 100px;
+    background: url('../img/fundo.png') no-repeat 0 ;
+    height: 430px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.menu {
+    float: right;
+    line-height:  100px;
+}
+.menu a {
+    color: #dedede;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.menu a.active {
+    color: #4afd9d;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: 0.3s;
+}
+.show-menu-btn, .hide-menu-btn {
+    transition: 0.4s;
+    font-size:30px;
+    cursor: pointer;
+    display: none;
+}
+.show-menu-btn {
+    float: right;
+}
+.show-menu-btn i {
+    line-height: 100px;
+}
+.menu a:hover ,
+.show -menu-btn:hover,
+.hide-menu-btn:hover {
+    color: #4afd9d;
+    text-decoration: none;
+    transition: 0.8s;
+}
+#chk {
+    position: absolute;
+    visibility:  hidden;
+    z-index: -1111;
+}
+
+header .highlight, header .current a{
+    color: #dfc053;;
+}
+header a:hover {
+    color: #51afe9;
+}
+#showcase {
+    min-height: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase.vol {
+    min-height: 400px;
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1.text-1 {
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(241, 241, 241);
+}
+#showcase p{
+    font-size: 20px;
+    color: #f9faf9;
+}
+
+/*   Todos os boxes que levam as informações [DESIGN] */
+#boxes {
+    margin-top: 0px;
+    background: #ffffff; 
+    transition: 1.0s; 
+}
+#boxes.trab {
+    margin-top: 0px;
+    background: #ffffff; 
+    transition: 1.0s; 
+}
+#boxes .box#informar {
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 50%;
+    padding: 25px 35px;
+    margin-bottom: 5px;
+    color: #646564;
+    height: 360px;
+    border-radius: 6px;
+}
+#boxes .box#caixa {
+    background-color: rgb(236, 211, 128);
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 50%;
+    padding: 25px 35px;
+    margin-bottom: 5px;
+    color: #646564;
+    height: 360px;
+    box-shadow: 0px 2px 7px 5px #f3f3f3;
+    border-radius: 6px;
+  }
+#boxes .box#caixa h3 {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+#boxes.vagas {
+    margin-top: 0px;
+    background: #ffffff; 
+    transition: 1.0s; 
+}
+#boxes.vaga {
+    margin-top: 0px;
+    background: rgb(252, 252, 252);
+    transition: 1.0s; 
+}
+
+#boxes.perfil {
+    margin-top: 0px;
+    background: #ffffff; 
+    transition: 1.0s; 
+}
+#boxes .box#ong {
+    background-color: rgb(73, 178, 204);
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 100%;
+    padding: 25px 65px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    color: #ecf1ec;
+    border-radius: 8px;
+    box-shadow: 0px 2px 7px 5px #f3f3f3;
+}
+#boxes .box#ong a {
+    text-decoration: none;
+    color: rgb(219, 221, 223);
+}
+#boxes .box#ong p {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+#boxes .box#caixinhaong {
+    background: url('../img/photo.png') no-repeat 0 ;
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 33%;
+    padding: 25px 65px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    color: #646564;
+    height: 350px;
+    border-radius: 10px;
+    transition: 0.s;
+}
+#boxes .box#caixinhaong:hover {
+    background: rgb(22, 54, 83) ;
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 33%;
+    padding: 30px 65px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    color: #646564;
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#boxes .box#caixinhaong p {
+    color: #e7e7e7;
+    font-size: 15px;
+    text-align: center;
+}
+  
+#boxes .box#caixinhaong h3 {
+    margin: 20px;
+    color: #ffbb29;
+    font-size: 27px;
+    text-align: center;
+}
+#boxes .box#possui {
+    background-color: rgb(236, 144, 128);
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 100%;
+    padding: 25px 65px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    color: #646564;
+    border-radius: 10px;
+    height: 150px;
+}
+h4.possuir {
+    color: rgb(43, 42, 42);
+}
+#boxes .box#caixinha {
+    background: rgb(201, 228, 253) ;
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 33%;
+    padding: 25px 65px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    color: #646564;
+    border-radius: 10px;
+    height: 620px;
+}
+#boxes .box#caixinh {
+    background: rgb(201, 228, 253) ;
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 33%;
+    padding: 25px 65px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    color: #646564;
+    border-radius: 10px;
+    height: 420px;
+}
+#boxes .box#caixinh p {
+    color: #444343;
+    font-size: 15px;
+    text-align: center;
+}
+  
+#boxes .box#caixinh h3 {
+    margin: 20px;
+    color: #1681da;
+    font-size: 27px;
+    text-align: center;
+}
+#boxes .box#caixin {
+    background: rgb(145, 230, 128) ;
+    list-style: none;
+    float: center;
+    text-align: center;
+    width: 33%;
+    padding: 25px 65px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    color: #646564;
+    border-radius: 10px;
+    height: 360px;
+}
+#boxes .box#caixin p {
+    color: #444343;
+    font-size: 15px;
+    text-align: center;
+}
+  
+#boxes .box#caixin h3 {
+    margin: 20px;
+    color: #18191a;
+    font-size: 27px;
+    text-align: center;
+}
+#boxes .box#caixinha p {
+    color: #444343;
+    font-size: 15px;
+    text-align: center;
+}
+  
+#boxes .box#caixinha h3 {
+    margin: 20px;
+    color: #1681da;
+    font-size: 27px;
+    text-align: center;
+}
+#boxes .box#caixinha button {
+    background-color: #8be683;
+    border: 0px;
+}
+#boxes.fdbx {
+    margin-top: 0px;
+    background: #ffffff; 
+    transition: 1.0s; 
+}
+#boxes .box{
+    list-style: none;
+    float: left;
+    text-align: center;
+    text-align: justify;
+    width: 33%;
+    padding: 15px 20px;
+    color: #646564;
+}
+#boxes .box h3{
+    color: #2f4e6b;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.7s;
+}
+#boxes .box h3.text-2{
+    color: #208bd3;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.7s;
+}
+#boxes .box h3.text-3{
+    color: #0a4e81;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.7s;
+}
+#boxes .box .text-p{
+    color: #262a2e;
+}
+#boxes .box h3:hover{
+    color: #335c8b;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s;
+}
+#boxes .box p{
+    color: #4a4f55;
+    text-align: center;
+}
+#boxes .box p a {
+    margin-left: 125px;
+}
+#boxes .box img {
+    width: 240px;
+    padding-left: 70px;
+}
+#boxes .box#cadastro img {
+    width: 240px;
+    padding-left: 70px;
+}
+#boxes ul li {
+    display: block;
+}
+#boxes a {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+p.alterar {
+    color: #262626;
+}
+/*
+
+/* Pagina Principal */
+#causas{
+    background: #f4f4f4;
+    width: 340px;
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+#perfil {
+    background: #ffffff;
+    width: 340px;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+#trab-vol {
+    background: #fffefe;
+    width: 340px;
+    border: 5px solid #ebe9e9;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+#perfil-button {
+    width: 340px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+#causas-trabalho {
+    background: #f4f4f4;
+    width: 340px;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+/* Pagina Cidadania */
+header.header-cidadania {
+    height: 100px;
+    background: url('../img/fundo-cidadania.png') no-repeat 0 ;
+    height: 430px;
+    padding: 10px 20px;
+    color: #fff;
+}
+h4.text-vgcriadas {
+    color: #3685ad;
+    text-align: center;
+}
+.container-card {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+    background: transparent;
+}
+.container-card .card {
+    position: relative;
+    width:  280px;
+    height: 400px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 15px 60px rgba(0,0,0.5);
+}
+.container-card .card .face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-card .card .face.face1{
+    box-sizing:  border-box;
+    padding: 20px;
+}
+.container-card .card .face.face1 h2 {
+    margin: 0;
+    padding: 0;
+}
+.container-card .card .face.face2{
+    background:  #111;
+    transition: 0.5s;
+}
+.container-card .card:nth-child(1) .face.face2{
+    background: linear-gradient(45deg,#3503ad,#f7308c);
+}
+.container-card .card:nth-child(2) .face.face2{
+    background: linear-gradient(45deg,#ccff00,#09afff);
+}
+.container-card .card:nth-child(3) .face.face2{
+    background: linear-gradient(45deg,#e91e63,#ffeb3b);
+}
+.container-card .card:hover .face.face2{
+   height: 60px;
+}
+.container-card .card .face.face2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+}
+.container-card .card .face.face2 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+.container-card .card:hover .face.face2 h2 {
+    font-size: 2em;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #eef0f1;
+    background-color: #294357;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    transition: 1.0s;
+    text-decoration: none;
+}
+footer p.one{
+    border-bottom: 1px solid #324863;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+@media(max-width: 768px){
+        header #branding,
+        #newsletter h1,
+        #newsletter form,
+        #boxes .box,
+        #boxes.vagas .box,
+        #boxes .box#informar,
+        #boxes .box#caixinha,
+        #boxes .box#caixinh,
+        #boxes .box#caixin,
+        #boxes .box#caixa,
+        #boxes1 .box1,
+        #boxes.vagas,
+        .-inicio,
+        #boxes .card,
+        #boxes ul li 
+        {
+            float: none;
+            text-align: center;
+            width: 95%;
+        }
+        header {
+            padding-bottom: 20px;
+        }
+        #showcase h1.text-1 {
+            margin-top: 15px;
+            font-size: 25px;
+        }
+        #showcase p.text-1 {
+            font-size: 15px;
+        }
+        h3.text-2{
+            margin-left: 15px;
+            font-size: 25px;
+        }
+        #newsletter button {
+            display: block;
+            width: 100%;
+        }
+    p.alterar {
+        color: #262626;
+    }
+     #newsletter form input[type="email"] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #branding img.logo {
+        margin-left: -180px;
+        position: absolute;
+    }
+    #boxes .box, #boxes1 .box1{
+        padding: 10px;
+    }
+    .btn {
+        padding-left: 35px;
+        text-decoration: none;
+        height: 40px;
+        background: #34b370;
+        border: 0;
+        padding: 10px 40px;
+        color: #ffffff;
+    }
+    #boxes .box p{
+        font-size: 14px;
+        text-align: justify;
+        color: #e7e9ec;
+    }
+    #boxes1 .box1 img {
+        width: 450px;
+        padding-left: 0px;
+    }
+    #boxes .box p{
+        color: #e7e9ec;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .show-menu-btn{
+        display: block;
+        padding: 0px 10px;
+    }
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 65vh;
+        background: #34495e;
+        right: -100%;
+        top: 15%;
+        text-align: center;
+        padding: 30px 0;
+        line-height:  normal;
+        transition: 0.4s;
+    }
+    .menu a {
+        display:block;
+        padding: 20px 0px;
+    }
+    .hide-menu-btn{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #chk:checked ~ .menu{
+        right: 0;
+    }
+    .btn-inicio {
+        text-align: center;
+        text-decoration: none;
+        height: 40px;
+        background: #34b370;
+        border: 0;
+        padding: 10px 150px;
+        color: #ffffff;
+    }
+    #boxes .box img {
+        width: 190px;
+        margin-left: -30px;
+    }
+    #boxes .box#caixinha {
+        background-color: rgb(195, 214, 231);
+        list-style: none;
+        float: left;
+        text-align: center;
+        width: 100%;
+        padding: 25px 65px;
+        margin-bottom: 5px;
+        margin-left: 3px;
+        color: #646564;
+        border-radius: 8px;
+        height: 680px;
+        box-shadow: 0px 2px 7px 5px #f3f3f3;
+    }
+    .caixinha {
+        border-top: 4px solid #f93;
+        background-color: #c9ffc4;
+        border: 1px solid #baffb8;
+        border-radius: 35px;
+        padding: 10px;
+        line-height: 1;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .caixinha p {
+        color: #646564;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .caixinha h3 {
+        color: #2f4e6b;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .caixinha button {
+        background-color: #8be683;
+        border: 0px;
+
+    }
+    
+}
+@media(max-width: 1024px){
+    header #branding,
+    #newsletter h1,
+    #newsletter form,
+    #boxes.vagas,
+    #boxes .box#caixinha,
+    .btn-inicio
+    {
+        float: none;
+        text-align: center;
+        width: 95%;
+    }
+    header {
+        padding-bottom: 20px;
+    }
+    #showcase h1 {
+        margin-top: 40px;
+    }
+    #newsletter button {
+        display: block;
+        width: 100%;
+    }
+    p.alterar {
+        color: #262626;
+    }
+ #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+}
+#branding img {
+    margin-left: -100px;
+}
+#boxes .box, #boxes1 .box1{
+    padding: 35px;
+}
+#boxes  .image {
+    width: 10px;
+    padding: 0 40px;
+}
+#boxes .box p , #boxes1 .box1 p{
+    font-size: 14px;
+    text-align: center;
+}
+#boxes1 .box1 img {
+    width: 450px;
+    padding-left: 0px;
+}
+#boxes .box p{
+    color: #adaead;
+    text-align: center;
+    font-size: 15px;
+}
+.btn-inicio {
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    background: #34b370;
+    border: 0;
+    padding: 10px 150px;
+    color: #ffffff;
+}
+#boxes .box img {
+    width: 190px;
+    padding-left: 90px;
+}
+
+}
+@media(max-width: 375px){
+    header #branding,
+    #newsletter h1,
+    #newsletter form,
+    #boxes.vagas,
+    #boxes .box,
+    #boxes .box#caixinha,
+    #boxes .box#caixinh,
+    #boxes .box#caixin,
+    #boxes .box#caixa,
+    #boxes .box#caixinha,
+    .btn-inicio
+    {
+        float: none;
+        text-align: center;
+        width: 95%;
+    }
+    header {
+        padding-bottom: 20px;
+    }
+    #showcase h1 {
+        margin-top: -50px;
+        font-size: 35px;
+    }
+    #showcase p {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    #newsletter button {
+        display: block;
+        width: 100%;
+    }
+    p.alterar {
+        color: #262626;
+    }
+ #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+}
+#branding img {
+    margin-left: -70px;
+}
+#boxes .box, #boxes1 .box1{
+    padding: 35px;
+}
+#boxes  .image {
+    width: 10px;
+    padding: 0 40px;
+}
+#boxes .box p , #boxes1 .box1 p{
+    font-size: 14px;
+    text-align: justify;
+}
+#boxes1 .box1 img {
+    width: 450px;
+    padding-left: 0px;
+}
+#boxes .box p{
+    color: #adaead;
+    text-align: justify;
+    font-size: 15px;
+}
+.btn-inicio {
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    background: #34b370;
+    border: 0;
+    padding: 10px 150px;
+    color: #ffffff;
+}
+
+
+}
+@media(max-width: 425px){
+    
+}
+@media(max-width: 320px){
+    #branding img.logo {
+        margin-left: -150px;
+        position: absolute;
+    }
+   
+    
+}
